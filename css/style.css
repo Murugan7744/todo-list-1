@@ -1,0 +1,135 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+@media(min-width:320px){
+    .container{
+        width:95%;
+        margin:auto;
+    }
+    #head{
+        width:80%;
+        overflow: auto;
+        height:70vh;
+    }
+    .task{
+        left:4%;
+    }
+    .click{
+        right:4%;
+    }
+}
+@media(min-width:620px){
+    .container{
+        width:85%;
+        margin:auto;
+    }
+    #head{
+        width:50%;
+        overflow: auto;
+        height:70vh;
+    }
+    .task{
+        left:18%;
+    }
+    .click{
+        right:12%;
+    }
+}
+@media(min-width:960px){
+    .container{
+        width:80%;
+        margin:auto;
+    }
+    #head{
+        width:30%;
+        overflow: auto;
+        height:70vh;
+    }
+    .task{
+        left:20%;
+    }
+    .click{
+        right:18%;
+    }
+}
+#todos{
+    background-image:url("../images/k.jpg");
+    background-size:cover;
+    height:100vh;
+    display:flex;
+    align-items:flex-end;    
+    justify-content:center;
+    
+}
+
+
+.click{
+    font-size: 25px;
+    color:#ffff ;
+    background-color:#212121 ;
+    border:2px solid #212121;
+    border-radius:20px;
+    padding:10px 55px;
+    position:fixed;
+    bottom:10px;
+}
+
+.para{
+    font-size:25px;
+}
+
+.para1{
+    background-color:#ffff;
+    color:#060606;
+    padding:10px 10px;
+    border-radius: 20px;
+    overflow:hidden;
+    
+}
+.task{
+    position:fixed;
+    bottom:10px;
+    width: 50%;
+    padding:13px 0px;
+    border:2px solid #605F60;
+    font-size:20px;
+    border-radius: 20px;
+}
+.done{
+    visibility: hidden;
+}
+.close{
+    visibility: visible;
+    font-size:18px;
+}
+.group{
+    
+    padding-top:15px;
+    margin-bottom: 15px;
+}
+.delete{
+    margin-top: 15px;
+    border:2px solid #F60619;
+    padding:10px 20px;
+    border-radius:20px;
+    background-color:#F60619 ;
+    color:#ffff ;
+}
+.edit{
+    margin-top: 15px;
+    border:2px solid #F60619;
+    padding:10px 20px;
+    border-radius:20px;
+    background-color:#F60619;
+    color:#ffff ;
+}
+.done{
+    margin-top: 15px;
+    border:2px solid #F60619;
+    padding:10px 20px;
+    border-radius:20px;
+    background-color:#F60619 ;
+    color:#ffff ;
+}
